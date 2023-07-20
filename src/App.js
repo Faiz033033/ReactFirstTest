@@ -1,11 +1,11 @@
 import React from 'react';
+import Form from './Components/Input';
 
 
 function App() {
   return (
     <div>
-      <h1>Hello Faiz</h1>
-
+      <Form />
     </div>
   );
 }
