@@ -1,13 +1,13 @@
 import React from 'react';
-import Form from './Components/Input';
-import Title from './Components/Title';
+import AddUser from './Components/NewUser/Input';
+import Title from './Components/NewUser/Title';
 
 
 function App() {
   return (
     <div>
       <Title/>
-      <Form />
+      <AddUser/>
     </div>
   );
 }
